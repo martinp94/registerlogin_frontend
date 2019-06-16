@@ -4,10 +4,14 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Register</title>
+	<title>Registration</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 	<link rel="stylesheet" href="header.css">
+	<link rel="stylesheet" href="footer.css">
 	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="register.css">
 </head>
 <body>
 		<header>
@@ -48,6 +52,105 @@
 						<a href="register.html">martinp</a>
 					</span>
 				</div>
-			</header>
+		</header>
+
+		<main>
+				<div class="card register">
+					<div class="card-header">
+							<h5 class="card-title">Registration</h5>
+					</div>
+					<div class="card-body text-center">
+						<form>
+							<div class="form-group row">
+								<label for="firstname" class="col-md-4 col-form-label">First Name</label>
+								<div class="col-md-8">
+									<input type="text" id="firstname" class="form-control" name="firstname" placeholder="Enter First Name">
+								</div>
+							</div>
+
+							<div class="form-group row">
+								<label for="lastname" class="col-md-4 col-form-label">Last Name</label>
+								<div class="col-md-8">
+									<input type="text" id="lastname" class="form-control" name="lastname" placeholder="Enter Last Name">
+								</div>
+							</div>
+
+							<div class="form-group row">
+								<label for="email" class="col-md-4 col-form-label">E-mail</label>
+								<div class="col-md-8">
+									<input type="email" id="email" class="form-control" name="email" placeholder="Enter e-mail">
+								</div>
+							</div>
+
+							<br>
+
+							<div class="form-group row">
+								<label for="country" class="col-md-4 col-form-label">Country</label>
+								<div class="col-md-8">
+									<select name="country" id="country" class="form-control">
+										<option value="europe">Europe</option>
+										<option value="usa">Usa</option>
+										<option value="southamerica">Southamerica</option>
+										<option value="asia">Asia</option>
+										<option value="australia">Australia</option>
+									</select>
+								</div>
+							</div>
+
+							<div class="form-group row">
+									<label for="city" class="col-md-4 col-form-label">City</label>
+									<div class="col-md-8">
+										<select name="city" id="city" class="form-control">
+											<option value="city1">City 1</option>
+											<option value="city2">City 2</option>
+											<option value="city3">City 3</option>
+											<option value="city4">City 4</option>
+											<option value="city5">City 5</option>
+										</select>
+									</div>
+							</div>
+
+							<div class="form-group row">
+								<label for="location" class="col-md-4 col-form-label">Locaiton</label>
+								<div class="col-md-8">
+									<select name="location" id="location" class="form-control">
+										<option value="location1">Location 1</option>
+										<option value="location2">Location 2</option>
+										<option value="location3">Location 3</option>
+										<option value="location4">Location 4</option>
+										<option value="location5">Location 5</option>
+									</select>
+								</div>
+							</div>
+
+							<br>
+
+							<div class="form-group row">
+								<label for="password" class="col-md-4 col-form-label">Password</label>
+								<div class="col-md-8">
+									<input type="password" id="password" class="form-control" name="password" placeholder="Enter password">
+								</div>
+							</div>
+
+							<div class="form-group row">
+								<label for="repeatPassword" class="col-md-4 col-form-label">Repeat password</label>
+								<div class="col-md-8">
+									<input type="repeatPassword" id="repeatPassword" class="form-control" name="repeatPassword" placeholder="Repeat password">
+								</div>
+							</div>
+
+							<button type="submit" class="btn btn-primary">Submit</button>
+						</form>
+					</div>
+				</div>
+			</main>
+		
+			<footer>
+		
+			</footer>
+		
+			<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
