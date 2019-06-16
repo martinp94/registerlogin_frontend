@@ -1,0 +1,58 @@
+header {
+	background-color: rgb(122, 32, 54);
+	display: flex;
+	justify-content: space-between;
+	padding: 0.3rem;
+}
+
+header > nav > ul {
+	list-style-type: none;
+}
+
+header > nav > ul > li {
+	display: inline-block;
+	padding: .8rem;
+	border-radius: .3rem;
+}
+
+header > nav > ul > li.active,
+header > nav > ul > li:hover,
+header > nav > ul > li:active {
+	background-color: rgb(255, 255, 255);
+}
+
+header > nav > ul > li > a {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
+
+header > nav > ul > li.active > a,
+header > nav > ul > li:hover > a,
+header > nav > ul > li:active > a {
+	color: rgb(0, 0, 0);
+}
+
+header > .header-right {
+	display: flex;
+	align-items: center;
+}
+
+header > .header-right > span {
+	margin: 0 1em;
+}
+
+header > .header-right > span > a {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+}
+
+header > .header-right > span > a.active,
+header > .header-right > span > a:hover,
+header > .header-right > span > a:active {
+	color: rgb(7, 101, 144);
+}
+
+header > .header-right > span > img {
+	border-radius: .8rem;
+}
